@@ -5,6 +5,10 @@
   font-family: 'Nerko One', cursive;
 }
 
+footer{
+text-align: center;
+}
+
 body{
   background-color: #add8e6;
 }
@@ -18,6 +22,7 @@ h1{
 }
 
 .container{
+  padding-top: 20px;
   text-align: center;
   width: 492px;
   height: 510px;
@@ -25,13 +30,18 @@ h1{
 }
 
 .backcard{
-  width: 100px;
+  width: 110px;
   height: 130px;
   margin: 10px 3px;
-  border-radius: 10px;
+  border-radius: 8px;
+  box-shadow: 4px 3px 0 #7A7A7A;
   display: inline-block;
   text-align: center;
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
   background-size: contain;
+}
+
+.figurina{
+
 }
